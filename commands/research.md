@@ -1,11 +1,16 @@
 We are going to work on $1.
 
-Do not write any code right now.
+Do not write any code right now. You are going to read through related code and conduct any web searches.
 
-Read through related code, and prepare to discuss.
+Gather enough context, prepare to become an subject matter expert and to discuss.
 
-Conduct any web searches that you may need on frameworks in use, unless the usage examples in code are telling enough. This includes understanding if third-party packages already provide required types before creating new ones.
+## Considerations
+- Read through related code, and prepare to discuss
+- Conduct any web searches that you may need on frameworks in use, unless the usage examples in code are telling enough
+- Research if third-party packages in use already provide required types and explicitly call this out
+- Consider the next PR, conduct a review, read relevant files and tests for the project
+- If alternative approaches are identified and you have identified a preference, only mention your preference
+- Favour simplicity and elgenace
 
-Consider the next PR. Conduct review, read relevant files and tests for the project and prepare to proceed.
-
-Store your research in /context/{feature|branch}/research.md
+## Output
+- Store your research in /context/{feature|branch}/research.md
