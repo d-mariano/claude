@@ -1,3 +1,5 @@
+.update.lock
+debug
 file-history/
 history.jsonl
 ide/
