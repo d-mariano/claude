@@ -1,6 +1,12 @@
-$1
+---
+allowed-tools: Glob, Grep, Read, Edit, TodoWrite, Write, WebFetch, WebSearch
+argument-hint: [prd] [research]
+description: Prepare a plan that implements the PRD or subcomponent that is informed by recent research $1.
+---
 
-Think hardest. Make a detailed plan to accomplish this.
+We are going to work on $1.
+
+Think hardest. Make a detailed plan to accomplish this, based on $2.
 
 Identify files that need to be changed.
 

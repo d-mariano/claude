@@ -1,3 +1,9 @@
+---
+allowed-tools: Glob, Grep, Read, Edit, TodoWrite, Write, WebFetch, WebSearch
+argument-hint: [topic]
+description: Conduct research on relevant files and resources to gain enough context for a full understanding of the given PRD or topic.
+---
+
 We are going to work on $1.
 
 Do not write any code right now. You are going to read through related code and conduct any web searches.
