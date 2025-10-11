@@ -24,4 +24,21 @@ Identify files that need to be changed.
 - Do not over-engineer abstractions
 - Avoid creating new types for interacting with third-party libraries when they already have their own
 
+## Tasks
+Tasks musts be outlined in the following format:
+```markdown
+## Tasks
+- [ ] 1.0 Parent Task Title
+  - [ ] 1.1 [Sub-task description 1.1]
+  - [ ] 1.2 [Sub-task description 1.2]
+- [ ] 2.0 Parent Task Title
+  - [ ] 2.1 [Sub-task description 2.1]
+- [ ] 3.0 Parent Task Title (may not require sub-tasks if purely structural or configuration)
+```
+
+## Target Audience
+
+Assume the primary reader of the task list is a **junior developer** who will implement the feature with awareness of the existing codebase context.
+
+
 Store your plan in /context/{feature|branch}/plan.md
