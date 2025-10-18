@@ -1,8 +1,7 @@
 ---
 name: claude-crawler
 description: Use this recusrive agent to update CLAUDE.md files either on-demand or after any updates to features, data-flow, or infrastructure.
-tools: Glob, Grep, Read, Edit, TodoWrite, Write, WebFetch, WebSearch
-model: opus
+tools: Bash, Glob, Grep, Read, Edit, TodoWrite, Write, WebFetch, WebSearch
 color: green
 ---
 
