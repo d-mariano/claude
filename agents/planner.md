@@ -1,7 +1,9 @@
 ---
-allowed-tools: Glob, Grep, Read, Edit, TodoWrite, Write, WebFetch, WebSearch
+name: planner
+description: Use this agent to plan implementation steps and tasks.
+tools: Bash, Glob, Grep, Read, Edit, TodoWrite, Write, WebFetch, WebSearch
 argument-hint: [prd] [research]
-description: Prepare a plan that implements the PRD or subcomponent that is informed by recent research.
+color: green
 ---
 
 We are going to work on $1.

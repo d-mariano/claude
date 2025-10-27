@@ -14,9 +14,19 @@ $1
 
 ## Process
 
-1.  **Ask Clarifying Questions:** Before writing the PRD, the AI *must* ask clarifying questions to gather sufficient detail. The goal is to understand the "what" and "why" of the feature, not necessarily the "how" (which the developer will figure out). Make sure to provide options in letter/number lists so I can respond easily with my selections.
-2.  **Generate PRD:** Based on the initial prompt and the user's answers to the clarifying questions, generate a PRD using the structure outlined below.
-3.  **Save PRD:** Save the generated document as `[n]-prd-[feature-name].md` inside the `/tasks` directory. (Where `n` is a zero-padded 4-digit sequence starting from 0001, e.g., `0001-prd-user-authentication.md`, `0002-prd-dashboard.md`, etc.)
+1.  **Research:** Use the @researcher agent as needed in order to become a subject matter expert
+2.  **Ask Clarifying Questions:** Before writing the PRD, the AI *must* ask clarifying questions to gather sufficient detail. The goal is to understand the "what" and "why" of the feature, not necessarily the "how" (which the developer will figure out). Make sure to provide options in letter/number lists so I can respond easily with my selections.
+3.  **Repeat:** Go back to step 1 as needed 
+4.  **Generate PRD:** Based on the initial prompt and the user's answers to the clarifying questions, generate a PRD using the structure outlined below
+7.  **Save PRD:** Save the generated document in `/context/[nnn]-{feature|branch|question}`
+8.  **Research Again:** Use the @researcher agent to determine if more research is needed for the generated PRD
+9.  **Refine:** If the PRD should be adjusted based on new research, go through all the steps again before updating the generated PRD
+
+## Research Guidance
+- Use the @researcher agent to maintain research for this PRD, it will output a research file and tell you where it is saved
+- For any subsequent calls to the @researcher agent, also provide it the location of the original research file and tell it to update it as needed
+- Use the @researcher agent before asking clarifying questions, after asking clarifying questions, and after any changes to the PRD
+- Use the @researcher agent if the PRD changes in a way where the research that you have access to is not sufficient enough to make educated decisions
 
 ## Clarifying Questions (Examples)
 
@@ -53,8 +63,9 @@ Assume the primary reader of the PRD is a **junior developer**. Therefore, requi
 ## Output
 
 *   **Format:** Markdown (`.md`)
-*   **Location:** `/tasks/`
-*   **Filename:** `[n]-prd-[feature-name].md`
+*   **Location:** `/context/[nnn]-{feature|branch|question}/research-[nnn].md`
+*   **Filename:** `prd-[nnn].md`
+#   **Example:** `prd-001.md`
 
 ## Final instructions
 

@@ -14,7 +14,6 @@ Gather enough context, prepare to become an subject matter expert and to discuss
 - Read through related code, and prepare to discuss
 - Conduct any web searches that you may need on frameworks in use, unless the usage examples in code are telling enough
 - Research if third-party packages in use already provide required types and explicitly call this out
-- Consider the next PR, conduct a review, read relevant files and tests for the project
 - If alternative approaches are identified and you have identified a preference, only mention your preference
 - Favour simplicity and elgenace
 
