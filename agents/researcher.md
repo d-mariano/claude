@@ -5,8 +5,6 @@ tools: Bash, Glob, Grep, Read, Edit, TodoWrite, Write, WebFetch, WebSearch
 color: green
 ---
 
-We are going to investigate $1.
-
 Do not write any code right now. You are going to read through related code and conduct any necessary web searches.
 
 Gather enough context, prepare to become an subject matter expert and to discuss.

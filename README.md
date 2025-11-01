@@ -14,7 +14,7 @@ The recommended development cycle follows four distinct phases:
 2. **📋 Requirements & Research** - Use `/prdgen` to create a comprehensive PRD from your idea
    - Interactively asks clarifying questions ❓
    - Automatically uses `@researcher` agent to become a subject matter expert 🔬
-   - Continuously researches as you refine the PRD 📚
+   - Continuously researches as you refine the PRD, as needed 📚
    - **⚠️ Known Issue** - Sometimes an extra call to the researcher is needed (WIP)
 3. **🗺️ Planning** - Use `/plan` to create a detailed implementation plan based on the PRD
 4. **⚡ Execution** - Use `/execute` to implement the plan with continuous validation
@@ -55,7 +55,7 @@ This structured approach ensures clarity at each stage and prevents scope creep 
 
 - **`/taskgen [prd]`** - Generate task list from a PRD
 - **`/taskexec [tasks]`** - Execute a specific task list
-- **`/explore [topic]`** - Alternative research command for gaining context
+- **`/explore [topic]`** - Alternative research command for gaining context, does not output to a file
 
 ### 🔍 Code Quality Commands
 
